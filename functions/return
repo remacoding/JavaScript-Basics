@@ -1,0 +1,8 @@
+function monitorCount(rows, columns) {
+  const monitors = rows * columns;
+  return monitors;
+  return numOfMonitors;
+}
+
+const numOfMonitors = monitorCount(5, 4);
+console.log(numOfMonitors);
